@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/bt_show_toast"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Show Toast"
+        android:textColor="@android:color/white"
+        android:textSize="26dp" />
+    <Button
+        android:id="@+id/bt_show_alert"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Show Alert"
+        android:textColor="@android:color/white"
+        android:textSize="26dp" />
+    <Button
+        android:id="@+id/bt_show_my_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Show Dialog"
+        android:textColor="@android:color/white"
+        android:textSize="26dp" />
+</LinearLayout>
